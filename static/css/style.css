@@ -22,7 +22,9 @@ h1 {
 button {
     position: absolute;
     right: 50%;
-    
+    background: orange;
+    border: 0.5px;
+    border-radius: 32px;
 
 
 }
