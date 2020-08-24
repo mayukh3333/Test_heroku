@@ -1,0 +1,35 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    background-color: #FBF5ED;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.submit {
+  width: 80%;
+  align-items: center;
+
+}
+
+button {
+    position: absolute;
+    right: 50%;
+    
+
+
+}
+
+h3{
+  color: #8100de;
+  letter-spacing: 3px;
+  font-weight: 400;
+
+}

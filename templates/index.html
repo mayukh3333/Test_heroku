@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title> Hello World </title>
+      <link rel = "stylesheet" href = "{{url_for('static', filename = 'css/style.css') }}">
+      <link rel="icon" type="image/png" href= "{{url_for('static', filename = '/apple.png') }}">
+  </head>
+
+  <body>
+    <h1 align = "center"> Hello World </h1>
+    <br>
+    <br>
+    <div class = "submit">
+    <form action = "{{ url_for('test') }}">
+      <button type = "submit">Enter</button>
+    </form>
+    </div>
+    <br>
+    <br>
+    <h3 align = "center">{{    test_text   }}</h3>
+
+  </body>
+
+
+</html>
